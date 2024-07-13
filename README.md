@@ -70,11 +70,3 @@ This project demonstrates how to configure a VPC peering connection between two 
      ping <private-ip-of-custom-ec2>
      ```
 
-## Conclusion
-
-By following these steps, you can successfully configure a VPC peering connection between two VPCs, modify route tables to allow communication between the VPCs, and verify connectivity through ping tests. This setup enables secure and efficient communication between instances in different VPCs.
-
-## Notes
-
-- Ensure that the security groups attached to the EC2 instances allow ICMP (ping) traffic.
-- Verify that the peering connection status is "Active" before performing the ping test.
